@@ -1,0 +1,27 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family:  Helvetica,Arial,sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+tr th, tr td{
+    padding: 5px;
+}
+thead{
+    background-color: #dddddd;
+}
+tbody tr:nth-child(odd){
+    background-color: #f7f7f7;
+}
+p{
+    padding: 5px 0;
+}

@@ -1,0 +1,24 @@
+table{
+    @apply w-full;
+}
+tr th{
+    @apply font-semibold;
+}
+th,td{
+    @apply p-2;
+    @apply text-sm;
+}
+/*normal table*/
+
+.table thead tr{
+    @apply bg-gray-100;
+    @apply text-gray-500;
+}
+.table tbody tr{
+    @apply text-base;
+    @apply text-gray-700;
+}
+.table tbody tr:nth-child(even)
+{
+    @apply bg-gray-50;
+}

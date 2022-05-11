@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
+<defs>
+</defs>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#C3C4C6" points="21.333,0.009 124.431,0.009 150.104,128.987 
+	134.505,145.797 2.133,145.918 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#DCDEDE" points="136.103,140.26 148.616,127.457 124.431,0.009 
+	107.375,7.157 119.099,18.506 140.226,125.89 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="13.938,18.506 119.099,18.506 133.89,143.072 0,143.072 
+	"/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#818788" points="107.552,18.394 107.552,7.157 119.24,18.39 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#818788" points="13.938,18.506 30.439,6.898 30.439,18.565 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#DCDEDE" points="21.307,0 30.439,6.898 19.328,14.714 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#F5F4F4" points="65.209,18.506 65.749,143.072 133.89,143.072 
+	119.099,18.506 "/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#818788" d="M40.146,46.302c3.486,0,6.329-2.844,6.329-6.332
+	c0-3.486-2.842-6.331-6.329-6.331c-3.486,0-6.329,2.845-6.329,6.331C33.817,43.458,36.66,46.302,40.146,46.302z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#818788" d="M90.824,46.302c3.484,0,6.327-2.844,6.327-6.332
+	c0-3.486-2.843-6.331-6.327-6.331c-3.487,0-6.329,2.845-6.329,6.331C84.495,43.458,87.337,46.302,90.824,46.302z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#818788" d="M92.423,87.935c-1.813,0-3.626,0-5.439,0
+	c-12.69-10.644-31.186-10.644-43.875,0h-4.907c7.143-7.28,16.913-11.383,27.11-11.383C75.51,76.552,85.28,80.654,92.423,87.935z"/>
+</svg>

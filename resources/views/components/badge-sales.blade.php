@@ -1,0 +1,40 @@
+<div>
+    @switch($status)
+        @case('pending')
+            @php
+                $color='yellow'
+            @endphp
+            @break
+        @case('success')
+            @php
+                $color='green'
+            @endphp
+            @break
+        @case('draft')
+            @php
+                $color='yellow'
+            @endphp
+            @break
+        @case('progress')
+            @php
+                $color='blue'
+            @endphp
+            @break
+        @case('uncompleted')
+            @php
+                $color='red'
+            @endphp
+            @break
+        @case('completed')
+            @php
+                $color='green'
+            @endphp
+            @break
+        @case('cancel')
+            @php
+                $color='red'
+            @endphp
+            @break
+    @endswitch
+    <span class="px-2 py-1 bg-{{$color}}-200 text-{{$color}}-800 rounded text-xs font-semibold">{{$status}}</span>
+</div>

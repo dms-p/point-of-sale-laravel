@@ -1,0 +1,6 @@
+.card{
+    @apply w-full;
+    @apply py-2;
+    @apply rounded-lg;
+    @apply shadow;
+}

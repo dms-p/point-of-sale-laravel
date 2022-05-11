@@ -1,0 +1,66 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'components/table.css';
+@import 'components/sidebar.css';
+@import 'components/card.css';
+/*main site*/
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+#sideLeft{
+    width: 250px;
+    @apply bg-blue-900;
+}
+#sideRight{
+    width: calc(100% - 250px);
+}
+@media screen and (max-width:579px){
+    #sideLeft{
+        left: -250px;
+        position: absolute;
+        z-index: 1;
+    }
+    #sideRight{
+        width:100%;
+        z-index: 0;
+    }
+}
+.toggleChart a{
+    @apply font-semibold;
+    @apply text-sm;
+    @apply px-3;
+    @apply py-1;
+    @apply rounded-md;
+    @apply bg-cool-gray-100;
+    @apply text-cool-gray-700;
+}
+.toggleChart a.active,.toggleChart a:hover{
+    @apply transition-all;
+    @apply bg-blue-600;
+    @apply text-cool-gray-200;
+}
+.btn,
+.btn-lg,
+.btn-sm,
+.btn-xs {
+    @apply font-medium text-sm inline-flex items-center justify-center border border-transparent rounded leading-5 shadow-sm transition duration-150 ease-in-out;
+}
+
+.btn {
+    @apply px-3 py-2;
+}
+
+.btn-lg {
+    @apply px-4 py-3;
+}
+
+.btn-sm {
+    @apply px-2 py-1;
+}
+
+.btn-xs {
+    @apply px-2 py-0.5;
+}

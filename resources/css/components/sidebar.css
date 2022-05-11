@@ -1,0 +1,62 @@
+.container-nav{
+    @apply px-3;
+    @apply py-5;
+}
+nav.sidebar{
+    @apply mt-3;
+}
+nav.sidebar > li > a.link-nav{
+    @apply w-full;
+    @apply inline-flex;
+    @apply items-center;
+    @apply px-4;
+    @apply py-3;
+    @apply rounded-lg;
+    @apply text-blue-200;
+    @apply text-sm;
+    @apply mb-1;
+}
+nav.sidebar.toggle span{
+    @apply hidden;
+}
+li{
+    list-style: none;
+}
+nav.sidebar > li > a.link-nav.active,nav.sidebar > li > a.link-nav:hover{
+    @apply bg-blue-700;
+    @apply bg-opacity-75;
+}
+nav.sidebar a.link-nav .fal{
+    @apply mr-2;
+}
+nav.sidebar a.link-nav span{
+    @apply block;
+}
+.sub-menu{
+    @apply hidden;
+    @apply pl-4;
+    @apply bg-cool-gray-900;
+    @apply rounded-lg;
+    @apply bg-opacity-50;
+}
+.sub-menu.active{
+    display: block!important;
+}
+.sub-menu  a.link-nav{
+    @apply flex;
+    @apply items-center;
+    @apply px-4;
+    @apply py-3;
+    @apply text-blue-300;
+    @apply text-sm;
+}
+.sub-menu  a.link-nav:hover,.sub-menu  a.link-nav.active{
+    @apply text-white;
+}
+nav.sidebar p{
+    @apply mt-4;
+    @apply mb-2;
+    @apply text-cool-gray-300;
+    @apply text-xs;
+    @apply tracking-wide;
+}
