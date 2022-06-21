@@ -1,7 +1,7 @@
 ## POINT OF SALE LARAVEL
 demo version will be soon
 
-![Gambar sistem penjualan dan inventory](https://www.dropbox.com/s/koz4yy6iwb91ixr/repository-open-graph-template.jpg)
+![Gambar sistem penjualan dan inventory](https://www.dropbox.com/s/koz4yy6iwb91ixr/repository-open-graph-template.jpg?raw=1)
 
 ## Tech Stack
 --------------------------------------
