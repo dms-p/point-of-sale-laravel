@@ -1,4 +1,4 @@
-## POINT OF SALE LARAVEL
+## Sistem Penjualan dan Inventory
 demo version will be soon
 
 ![Gambar sistem penjualan dan inventory](https://www.dropbox.com/s/koz4yy6iwb91ixr/repository-open-graph-template.jpg?raw=1)
